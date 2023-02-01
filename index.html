@@ -173,18 +173,27 @@ body{
     font-size: 22px;
     margin-top: -5rem;
 }
-.attribution a:visited{
-    color:hsl(25, 97%, 53%); ;
-
+.attribution a{
+    color:hsl(25, 97%, 53%);
 }
 @media (max-width: 375px){
     .background-container{
         margin: -4rem;
         padding: 5rem;
     }
+    .container-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        height: 600px;
+        width: 500px;
+    }
     .submit-button{
-        margin-right:2rem;
-        padding: 1rem;
+        width:10rem;
+        display: grid;
+        margin-right:2.3rem;
+        margin-bottom: 2rem;
     }
 }
 </style>
